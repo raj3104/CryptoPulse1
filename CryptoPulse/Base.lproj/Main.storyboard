@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CryptoPulse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CryptoPulse Background" translatesAutoresizingMaskIntoConstraints="NO" id="GGw-vE-UTq">
+                                <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8Xs-Dh-C3S">
+                                <rect key="frame" x="0.0" y="62" width="440" height="842"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cfi-Ms-6ID" userLabel="Top">
+                                        <rect key="frame" x="0.0" y="0.0" width="440" height="275.33333333333331"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Crypt name 2 wm" translatesAutoresizingMaskIntoConstraints="NO" id="2wQ-hB-IeT">
+                                                <rect key="frame" x="45" y="37.666666666666686" width="350" height="200"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="2wQ-hB-IeT" firstAttribute="centerY" secondItem="Cfi-Ms-6ID" secondAttribute="centerY" id="QjX-E0-oYp"/>
+                                            <constraint firstItem="2wQ-hB-IeT" firstAttribute="centerX" secondItem="Cfi-Ms-6ID" secondAttribute="centerX" id="jaU-IS-g4k"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tke-2m-DRn" userLabel="Middle">
+                                        <rect key="frame" x="0.0" y="283.33333333333337" width="440" height="275.33333333333337"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bf3-a0-3uf">
+                                                <rect key="frame" x="54.333333333333343" y="112.66666666666669" width="331.66666666666663" height="50"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BitCoin CP" translatesAutoresizingMaskIntoConstraints="NO" id="pue-YO-NMm">
+                                                        <rect key="frame" x="0.0" y="0.0" width="40" height="50"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="za3-hb-0Jw">
+                                                        <rect key="frame" x="48" y="0.0" width="200" height="50"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="30"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nfw-8H-gOq">
+                                                        <rect key="frame" x="255.99999999999997" y="0.0" width="75.666666666666657" height="50"/>
+                                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="30"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="bf3-a0-3uf" firstAttribute="centerX" secondItem="tke-2m-DRn" secondAttribute="centerX" id="AnQ-C8-343"/>
+                                            <constraint firstItem="bf3-a0-3uf" firstAttribute="centerY" secondItem="tke-2m-DRn" secondAttribute="centerY" id="gqd-yx-cwn"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nr4-Z9-XK1" userLabel="Bottom">
+                                        <rect key="frame" x="0.0" y="566.66666666666663" width="440" height="275.33333333333337"/>
+                                        <subviews>
+                                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dzz-Rn-3eA">
+                                                <rect key="frame" x="47" y="30" width="346" height="216"/>
+                                            </pickerView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="Dzz-Rn-3eA" firstAttribute="centerY" secondItem="Nr4-Z9-XK1" secondAttribute="centerY" id="U5Z-9O-TPI"/>
+                                            <constraint firstItem="Dzz-Rn-3eA" firstAttribute="centerX" secondItem="Nr4-Z9-XK1" secondAttribute="centerX" id="qOU-Uo-oCh"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GGw-vE-UTq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="2Xi-DF-Yc9"/>
+                            <constraint firstItem="8Xs-Dh-C3S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5iP-0C-kMn"/>
+                            <constraint firstItem="8Xs-Dh-C3S" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="D8S-2I-0xG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8Xs-Dh-C3S" secondAttribute="bottom" constant="18" id="g3j-Yi-yQH"/>
+                            <constraint firstAttribute="bottom" secondItem="GGw-vE-UTq" secondAttribute="bottom" id="mmo-Mz-JS5"/>
+                            <constraint firstItem="GGw-vE-UTq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wql-GM-3zi"/>
+                            <constraint firstAttribute="trailing" secondItem="GGw-vE-UTq" secondAttribute="trailing" id="xId-hl-71Z"/>
+                            <constraint firstItem="8Xs-Dh-C3S" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ymv-X1-Ju8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bitcoinAmount" destination="za3-hb-0Jw" id="V13-aD-paZ"/>
+                        <outlet property="coin" destination="pue-YO-NMm" id="161-R7-stf"/>
+                        <outlet property="countryCurrency" destination="Nfw-8H-gOq" id="Hpj-EX-C8M"/>
+                        <outlet property="currencyPicker" destination="Dzz-Rn-3eA" id="kAr-df-qn0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="4.9295774647887329"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BitCoin CP" width="40" height="40"/>
+        <image name="Crypt name 2 wm" width="350" height="200"/>
+        <image name="CryptoPulse Background" width="810" height="1440"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
